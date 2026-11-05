@@ -10,8 +10,8 @@ http:
     type: json
     data: |-
       {
-        "email": "compliance.test@smartpay.mw",
-        "password": "Password123!"
+        "email": "seed.admin@solaris.local",
+        "password": "DevAdminPassword123!"
       }
   auth: inherit
 

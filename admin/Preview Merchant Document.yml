@@ -1,0 +1,23 @@
+info:
+  name: Preview Merchant Document
+  type: http
+  seq: 5
+
+http:
+  method: GET
+  url: "{{baseUrl}}/v1/admin/merchant-applications/:profileId/documents/:documentId/preview"
+  params:
+    - name: profileId
+      value: aba2074e-2185-4439-919a-3912aa5fe002
+      type: path
+    - name: documentId
+      value: 39f63bf7-db6a-4dad-8af4-22645304165b
+      type: path
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
